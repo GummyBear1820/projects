@@ -7,6 +7,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
+        System.out.println("Hi this is wordle");
         GameRunner game = new GameRunner();
         Scanner scanner = new Scanner(System.in);
         String target = game.targetGenerator();
